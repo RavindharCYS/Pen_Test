@@ -1,4 +1,4 @@
-# VAPT Tool (Vulnerability Assessment and Penetration Testing)
+# VAPT Automation Tool (Vulnerability Assessment and Penetration Testing)
 
 This project is a Python-based tool designed to perform Vulnerability Assessment and Penetration Testing (VAPT) on a Windows 7 target system. The tool scans for vulnerabilities, exploits the EternalBlue vulnerability (`MS17-010`), performs post-exploitation activities, and generates a comprehensive assessment report.
 
@@ -81,14 +81,14 @@ vapt-tool/
 
 Input:
 ```mathematica
-Enter your Target IP: 192.168.1.100
+Enter your Target IP: "Target IP"
 ```
 
 Output:
 
 CLI Example:
 ```vbnet
-Scanning target 192.168.1.100 for vulnerabilities...
+Scanning target "Target IP" for vulnerabilities...
 Available Vulnerabilities:
 - SMBv1 is enabled and vulnerable to MS17-010.
 Exploiting EternalBlue on 192.168.1.100...
@@ -103,7 +103,7 @@ Report File:
 ```plaintext
 VAPT Report
 ===========
-Targeted IP: 192.168.1.100
+Targeted IP: "Target IP"
 ------------------------
 Ports Scanned: 445, 139
 Vulnerabilities Found: SMBv1 is enabled and vulnerable to MS17-010.
