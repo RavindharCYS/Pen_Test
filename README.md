@@ -32,7 +32,7 @@ sudo apt-get install nmap metasploit-framework python3
 
 3. Clone this repository:
 ```bash
-git clone <repository_url>
+git clone https://github.com/RavindharCYS/Pen_Test.git
 cd vapt-tool
 ```
 
